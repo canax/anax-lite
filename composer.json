@@ -7,12 +7,12 @@
     "authors": [
         {
             "name": "Mikael Roos",
-            "email": "mos@dbwebb.se",
+            "email": "mos@dbwebb.se"
         }
     ],
     "support": {
         "issues": "https://github.com/canax/anax-lite/issues",
-        "source": "https://github.com/canax/anax-lite",
+        "source": "https://github.com/canax/anax-lite"
     },
     "require": {
         "php": "^7.2",
