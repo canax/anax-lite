@@ -1,6 +1,6 @@
 {
     "name" : "anax/anax-lite",
-    "description": "The Anax (micro) framework, a customised release with only the bare essentials.",
+    "description": "The Anax (micro) framework, only the bare essentials.",
     "homepage": "https://github.com/canax/anax-lite",
     "license": "MIT",
     "keywords": ["Anax", "Framework", "Micro framework"],
