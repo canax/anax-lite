@@ -19,8 +19,8 @@
         "anax/common": "^1.0",
         "anax/configure": "^1.0",
         "anax/response": "^1.0",
-        "anax/request": "^1.0",
-        "anax/router": "^1.0",
+        "anax/request": "^1.1",
+        "anax/router": "^1.1",
         "anax/session": "^1.0",
         "anax/url": "^1.0",
         "anax/view": "^1.0"
