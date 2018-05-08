@@ -3,10 +3,10 @@ Revision history
 
 
 
-v1.0.* (2018-05-08)
+v1.0.1 (2018-05-08)
 ---------------------------------
 
-* Bump versions on modules, to thos actually used.
+* Bump versions on modules, to those actually used.
 
 
 
