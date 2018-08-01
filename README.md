@@ -7,3 +7,17 @@ Anax Lite
 A smaller version of Anax with limited features.
 
 Compare with a micro framework or a smaller service providing a API or smaller website.
+
+
+
+License
+------------------
+
+This software carries a MIT license. See [LICENSE.txt](LICENSE.txt) for details.
+
+
+
+```
+ .  
+..:  Copyright (c) 2013 - 2018 Mikael Roos, mos@dbwebb.se
+```
