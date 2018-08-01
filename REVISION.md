@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.4 (2018-08-01)
+---------------------------------
+
+* Use v2.0.0@alpha version of anax/{request,response,view}. 
+
+
+
 v1.0.3 (2018-08-01)
 ---------------------------------
 
