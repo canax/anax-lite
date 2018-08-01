@@ -3,10 +3,17 @@ Revision history
 
 
 
+v1.0.8 (2018-08-01)
+---------------------------------
+
+* Use v2.0.0@alpha version of anax/{coommons}. 
+
+
+
 v1.0.7 (2018-08-01)
 ---------------------------------
 
-* Use v2.0.0@alpha version of anax/{session,url}. 
+* Use v2.0.0@alpha version of anax/{configure,session,url}. 
 
 
 
