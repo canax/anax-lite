@@ -19,6 +19,7 @@
         "anax/commons": "^1.0.0",
         "anax/configure": "^1.0.0",
         "anax/di": "^2.0.0@alpha",
+        "anax/page": "^2.0.0@alpha",
         "anax/response": "^2.0.0@alpha",
         "anax/request": "^2.0.0@alpha",
         "anax/router": "^2.0.0@alpha",
