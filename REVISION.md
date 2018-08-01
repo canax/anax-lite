@@ -8,6 +8,7 @@ v1.0.3 (2018-08-01)
 
 * Remove anax/common and replace with anax/commons.
 * Add .anax/scaffold to ease setup by cli anax.
+* Use v2.0.0@alpha version of anax/{di,router}. 
 
 
 
