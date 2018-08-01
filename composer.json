@@ -23,8 +23,8 @@
         "anax/response": "^2.0.0@alpha",
         "anax/request": "^2.0.0@alpha",
         "anax/router": "^2.0.0@alpha",
-        "anax/session": "^1.0.0",
-        "anax/url": "^1.0.0",
+        "anax/session": "^2.0.0@alpha",
+        "anax/url": "^2.0.0@alpha",
         "anax/view": "^2.0.0@alpha"
     },
     "autoload": {
