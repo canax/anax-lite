@@ -53,6 +53,10 @@ rsync -a vendor/anax/commons/config/error_reporting.php config/
 install -d config/di
 rsync -a vendor/anax/di/config/di/{request,response,router,session,url,view}.php config/di/
 
+# Get default pages
+rsync -a vendor/anax/page/config/{di,route} config/
+rsync -a vendor/anax/page/src/ src/
+
 # Copy default config for router
 rsync -a vendor/anax/router/config/route2/ config/route/
 rsync -a vendor/anax/router/config/route2.php config/route.php
