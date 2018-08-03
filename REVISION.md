@@ -3,10 +3,17 @@ Revision history
 
 
 
+v1.0.9 (2018-08-02)
+---------------------------------
+
+* Use v2.0.0@alpha version of anax/common, first step to remove it.
+
+
+
 v1.0.8 (2018-08-01)
 ---------------------------------
 
-* Use v2.0.0@alpha version of anax/{coommons}. 
+* Use v2.0.0@alpha version of anax/commons. 
 
 
 
