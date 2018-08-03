@@ -33,10 +33,11 @@ rsync -a vendor/anax/commons/Makefile Makefile
 
 # Install general development files
 # rsync -a vendor/anax/common/{.gitignore,.php*.xml} .
-rsync -a vendor/anax/commons/{.gitignore,test,.circleci,.php*.xml} ./
+rsync -a vendor/anax/commons/{.gitignore,.circleci,.php*.xml} ./
 rsync -a vendor/anax/commons/.travis_default.yml .travis.yml
 rsync -a vendor/anax/commons/.circleci/config_default.yml .circleci/config.yml
 rsync -a vendor/anax/commons/.codeclimate.yml ./
+rsync -a vendor/anax/commons/test/{config,ExampleTest}.php ./test/
 
 # Enable to run site in docker
 #rsync -a vendor/anax/commons/docker-compose_site.yml docker-compose.yml
@@ -52,6 +53,9 @@ rsync -a vendor/anax/commons/config/error_reporting.php config/
 # Install DI services
 install -d config/di
 rsync -a vendor/anax/di/config/di/{request,response,router,session,url,view}.php config/di/
+
+# Get base for configuration
+rsync -a vendor/anax/configure/config/ config/
 
 # Get default pages
 rsync -a vendor/anax/page/config/{di,route} config/
