@@ -28,54 +28,55 @@ function error {
 composer install
 
 # Get a Makefile, could be useful
-# rsync -a vendor/anax/common/extra/Makefile .
 rsync -a vendor/anax/commons/Makefile Makefile
 
 # Install general development files
-# rsync -a vendor/anax/common/{.gitignore,.php*.xml} .
 rsync -a vendor/anax/commons/{.gitignore,.circleci,.php*.xml} ./
 rsync -a vendor/anax/commons/.travis_default.yml .travis.yml
 rsync -a vendor/anax/commons/.circleci/config_default.yml .circleci/config.yml
 rsync -a vendor/anax/commons/.codeclimate.yml ./
-rsync -a vendor/anax/commons/test/{config,ExampleTest}.php ./test/
+rsync -a vendor/anax/commons/test/config_sample.php ./test/
+rsync -a vendor/anax/commons/test/Example ./test/
 
 # Enable to run site in docker
-#rsync -a vendor/anax/commons/docker-compose_site.yml docker-compose.yml
 rsync -a vendor/anax/commons/docker-compose_site.yml docker-compose.yml
 
 # Create dirs needed
-install -d config src view
+install -d src
 
-# Config for error reporting
-#rsync -a vendor/anax/commons/config/error_reporting.php config/
-rsync -a vendor/anax/commons/config/error_reporting.php config/
+# Get configuration for commons.
+rsync -a vendor/anax/commons/config/ config/
 
-# Install DI services
-install -d config/di
-rsync -a vendor/anax/di/config/di/{request,response,router,session,url,view}.php config/di/
-
-# Get base for configuration
+# Copy default config for configuration
 rsync -a vendor/anax/configure/config/ config/
 
-# Get default pages
-rsync -a vendor/anax/page/config/{di,route} config/
-rsync -a vendor/anax/page/src/ src/
+# Copy default config for response
+rsync -a vendor/anax/response/config/ config/
 
 # Copy default config for router
-rsync -a vendor/anax/router/config/route2/ config/route/
-rsync -a vendor/anax/router/config/route2.php config/route.php
-sedi "s/route2/route/g" config/route.php
+rsync -a vendor/anax/router/config/ config/
+#rsync -a vendor/anax/router/route/ route/
 
 # Copy default config for session
-rsync -a vendor/anax/session/config/session.php config/
+rsync -a vendor/anax/session/config/ config/
 
 # Copy default config for url
 rsync -a vendor/anax/url/config/url_clean.php config/url.php
 
-# Copy default config for view
-rsync -a vendor/anax/view/config/view.php config
-
 # Create directory structure for htdocs
-# rsync -a vendor/anax/common/extra/htdocs .
-install -d htdocs/{css,img,js}
-rsync -a vendor/anax/commons/htdocs/{index.php,favicon.ico,.htaccess*} htdocs/
+install -d htdocs/{css,img}
+rsync -a vendor/anax/commons/htdocs/ htdocs/
+
+
+
+#
+# Move to Anax Flat?
+# 
+# Get default pages
+rsync -a vendor/anax/page/config/ config/
+#rsync -a vendor/anax/page/src/ src/
+
+# Copy default config for view
+install -d view
+rsync -a vendor/anax/view/config/ config/
+#rsync -a vendor/anax/view/anax/v2/ view/anax/v2/
