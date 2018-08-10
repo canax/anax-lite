@@ -1,33 +1,35 @@
 {
     "name" : "anax/anax-lite",
-    "description": "The Anax Lite (micro) framework, only the bare essentials.",
+    "description": "The Anax Lite (micro) framework, the bare essentials.",
     "homepage": "https://github.com/canax/anax-lite",
     "license": "MIT",
     "keywords": ["Anax", "Framework", "Micro framework"],
     "authors": [
         {
             "name": "Mikael Roos",
-            "email": "mos@dbwebb.se"
+            "email": "mos@dbwebb.se",
+            "role": "lead"            
         }
     ],
     "support": {
         "issues": "https://github.com/canax/anax-lite/issues",
         "source": "https://github.com/canax/anax-lite"
     },
+    "autoload": {
+        "psr-4": {"Anax\\": "src/"}
+    },
     "require": {
         "php": "^7.2",
         "anax/commons": "^2.0.0@alpha",
         "anax/configure": "^2.0.0@alpha",
         "anax/di": "^2.0.0@alpha",
-        "anax/page": "^2.0.0@alpha",
         "anax/response": "^2.0.0@alpha",
         "anax/request": "^2.0.0@alpha",
         "anax/router": "^2.0.0@alpha",
         "anax/session": "^2.0.0@alpha",
         "anax/url": "^2.0.0@alpha",
-        "anax/view": "^2.0.0@alpha"
     },
-    "autoload": {
-        "psr-4": {"Anax\\": "src/"}
+    "require-dev": {
+        "phpunit/phpunit": "^7"
     }
 }
