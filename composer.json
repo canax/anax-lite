@@ -27,7 +27,7 @@
         "anax/request": "^2.0.0@alpha",
         "anax/router": "^2.0.0@alpha",
         "anax/session": "^2.0.0@alpha",
-        "anax/url": "^2.0.0@alpha",
+        "anax/url": "^2.0.0@alpha"
     },
     "require-dev": {
         "phpunit/phpunit": "^7"

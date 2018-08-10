@@ -3,6 +3,16 @@ Revision history
 
 
 
+v1.0.11 (2018-08-10)
+---------------------------------
+
+* Move anax/{page,view} to anax/flat.
+* Add development tools and files.
+* Fix issues in scaffold/postprocess.
+* Add build on travis and circleci.
+
+
+
 v1.0.10 (2018-08-09)
 ---------------------------------
 
