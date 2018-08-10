@@ -70,17 +70,3 @@ rsync -a vendor/anax/url/config/di/ config/di/
 # Create directory structure for htdocs
 install -d htdocs/img
 rsync -a vendor/anax/commons/htdocs/ htdocs/
-
-
-
-#
-# Move to Anax Flat?
-# 
-# Get default pages
-rsync -a vendor/anax/page/config/ config/
-#rsync -a vendor/anax/page/src/ src/
-
-# Copy default config for view
-install -d view
-rsync -a vendor/anax/view/config/ config/
-#rsync -a vendor/anax/view/anax/v2/ view/anax/v2/

@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.12 (2018-08-10)
+---------------------------------
+
+* Fix postprocess regarding anax/{page,view} to anax/flat.
+
+
+
 v1.0.11 (2018-08-10)
 ---------------------------------
 
