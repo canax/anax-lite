@@ -25,7 +25,9 @@ You can install and scaffold a complete site using [anax-cli](https://github.com
 anax create site anax-lite-site
 ```
 
-Point your web browser to the directory site/htdocs.
+Point your web browser to the directory "site/htdocs".
+
+There are some plain development routes mounted on the route "dev/".
 
 
 
