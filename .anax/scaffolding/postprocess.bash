@@ -25,7 +25,7 @@ function error {
 }
 
 # Install using composer
-composer install
+[[ $1 = "NO_COMPOSER" ]] || composer install
 
 # Get a Makefile, could be useful
 rsync -a vendor/anax/commons/Makefile Makefile
