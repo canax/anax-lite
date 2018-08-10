@@ -53,6 +53,9 @@ rsync -a vendor/anax/configure/config/ config/
 # Copy default config for response
 rsync -a vendor/anax/response/config/ config/
 
+# Copy default config for request
+rsync -a vendor/anax/request/config/ config/
+
 # Copy default config for router
 rsync -a vendor/anax/router/config/ config/
 #rsync -a vendor/anax/router/route/ route/
@@ -62,9 +65,10 @@ rsync -a vendor/anax/session/config/ config/
 
 # Copy default config for url
 rsync -a vendor/anax/url/config/url_clean.php config/url.php
+rsync -a vendor/anax/url/config/di/ config/di/
 
 # Create directory structure for htdocs
-install -d htdocs/{css,img}
+install -d htdocs/img
 rsync -a vendor/anax/commons/htdocs/ htdocs/
 
 
