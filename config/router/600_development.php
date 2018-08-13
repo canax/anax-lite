@@ -1,7 +1,4 @@
 <?php
-
-use Anax\Route\Exception\NotFoundException;
-
 /**
  * Routes to ease development and debugging.
  */
