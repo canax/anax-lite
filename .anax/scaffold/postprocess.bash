@@ -4,14 +4,12 @@
 #
 
 # Include ./functions.bash
-DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
-source "$DIR/functions.bash"
+source .anax/scaffold/functions.bash
 
 # Install using composer
-[[ $1 = "NO_COMPOSER" ]] || composer install
+composer install
 
-# Run all scripts in ./postprocess.d
-for file in $( ls $DIR/postprocess.d/*.bash ); do
-    #echo "${file##*/}"
+# Run own scaffolding scripts
+for file in .anax/scaffold/postprocess.d/*.bash; do
     bash "$file"
 done
