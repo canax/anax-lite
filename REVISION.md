@@ -3,7 +3,14 @@ Revision history
 
 
 
-v1.0.16 (2018-08-10)
+v1.0.17 (2018-08-13)
+---------------------------------
+
+* Add missing script .anax/scaffold/postprocess.d/120_anax/configure.bash.
+
+
+
+v1.0.16 (2018-08-13)
 ---------------------------------
 
 * Move scaffolding scripts to .anax/scaffold/postprocess.d.
