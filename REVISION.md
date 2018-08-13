@@ -3,10 +3,17 @@ Revision history
 
 
 
+v1.0.16 (2018-08-10)
+---------------------------------
+
+* Move scaffolding scripts to .anax/scaffold/postprocess.d.
+
+
+
 v1.0.15 (2018-08-10)
 ---------------------------------
 
-* Readd .anax/scaffold.
+* Read .anax/scaffold.
 
 
 
