@@ -3,6 +3,14 @@ Revision history
 
 
 
+v1.0.19 (2018-08-13)
+---------------------------------
+
+* Move development routes from anax/route.
+* Enhance unit testing.
+
+
+
 v1.0.18 (2018-08-13)
 ---------------------------------
 
