@@ -3,6 +3,13 @@ Revision history
 
 
 
+v1.0.21 (2018-08-15)
+---------------------------------
+
+* Add anax/controller and integrate the SampleController on test/controller.
+
+
+
 v1.0.20 (2018-08-13)
 ---------------------------------
 

@@ -22,10 +22,11 @@
         "php": "^7.2",
         "anax/commons": "^2.0.0@alpha",
         "anax/configure": "^2.0.0@alpha",
+        "anax/controller": "^2.0.0@alpha",
         "anax/di": "^2.0.0@alpha",
         "anax/response": "^2.0.0@alpha",
         "anax/request": "^2.0.0@alpha",
-        "anax/router": "^2.0.0@alpha",
+        "anax/router": "^2.0.0@beta",
         "anax/session": "^2.0.0@alpha",
         "anax/url": "^2.0.0@alpha"
     },
