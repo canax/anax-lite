@@ -3,6 +3,14 @@ Revision history
 
 
 
+v1.0.22 (2018-08-15)
+---------------------------------
+
+* Add SampleController to src.
+* Add unit testing.
+
+
+
 v1.0.21 (2018-08-15)
 ---------------------------------
 
