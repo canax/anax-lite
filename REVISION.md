@@ -3,6 +3,14 @@ Revision history
 
 
 
+v1.0.26 (2018-09-25)
+---------------------------------
+
+* Remove scaffolding for setting htdocs/.htacces, default is correct.
+* Add routes for app style controller.
+
+
+
 v1.0.25 (2018-08-16)
 ---------------------------------
 
